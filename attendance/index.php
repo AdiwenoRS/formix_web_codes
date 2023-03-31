@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance</title>
+    <center><h1 style="margin-top:3cm; font-size:50px;"><b>OUR EMPLOYEE</b></h1></center>
+    <!-- stylesheets -->
+    <style type="text/css">
+
+        html{
+            font-family: sans-serif;
+        }
+
+        body{
+            background-color: white;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+          "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        }
+        .topnav{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 80px;
+            background-color: rgba(37, 31, 138, 1);
+        }
+
+        .topnav a {
+            float: left;
+            color: goldenrod;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 20px;
+            
+        }
+        
+        /* Float four columns side by side */
+        .column {
+          float: left;
+          width: 25%;
+          padding: 0 10px;
+        }
+
+
+        .margin{
+            margin: 1cm auto 0 5cm;
+        }
+        /* Remove extra left and right margins, due to padding */
+        .row {
+            margin: 0 -5px;
+            
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+
+        /* Style the counter cards */
+        .card {
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          padding: 16px;
+          text-align: center;
+          background-color: #f1f1f1;
+        }
+        img {
+            border-radius: 5px 5px 0 0 ;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .column {
+              width: 100%;
+              display: block;
+              margin-bottom: 20px;
+            }
+           .topnav{
+                width: 100%;
+            }
+        }
+        
+  
+
+    </style>
+</head> 
+
+<body>
+    <!-- navigation bar-->
+    <div class="topnav">
+        <div class="image"> 
+            <img src="formix.png" alt="Formix" width="200px" style="margin: 10px auto 0 10px;"> 
+        </div>
+    </div>
+<div class="margin">    
+    <div class="row">
+      <div class="column">
+        <div class="card">
+        <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="width:100%">
+          <p><b>ADIWENO RASHAD SAHITA</b></p>
+          <p>Back-end Developer</p>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+        <img src="https://www.w3schools.com/howto/img_avatar2.png" alt="Avatar" style="width:100%">
+        <p><b>MUTHIA AZKA</b></p>
+          <p>Administrator</p>
+        </div>
+      </div>
+        
+      <div class="column">
+        <div class="card">
+        <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="width:100%">
+          <p><b>DAVI RABBANI</b></p>
+          <p>Front-end Developer</p>
+        </div>
+      </div>
+        
+    </div>
+</div>
+</body>
+
+</html>
